@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="head.master.cs" Inherits="WebApplication1.head" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+   <title><%: Page.Title %> - BetterPlace</title>
+     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+      
+ <div class="navbar">
+        <img src="image/bglogo.png" alt="Games Logo"  height ="75" align ="left"  />
+  
+        <a href="./Logout.aspx"><i class="fa fa-fw fa-search"></i> Logout</a>
+        <a href="./Settings.aspx"><i class="fa fa-fw fa-search"></i> Settings</a>
+        <a href="./MyProfile.aspx"><i class="fa fa-fw fa-search"></i> Profile</a>
+        <a class="active" href="./HomePage.aspx"><i class="fa fa-fw fa-home"></i> Home</a>
+        
+  
+    </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+</html>

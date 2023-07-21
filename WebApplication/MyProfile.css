@@ -1,0 +1,84 @@
+﻿.navbar {
+    width: 100%;
+    background-color: rgb(27 27 31 / 0.70);
+    overflow: auto;
+}
+
+    .navbar a {
+        float: right;
+        text-align: center;
+        padding: 19px 28px;
+        color: #dac319;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+        .navbar a:hover {
+            background-color: white;
+        }
+
+
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: url('image/signupbackground.png');
+    background-size: cover;
+    font-family: 'Trebuchet MS';
+    height: 120vh;
+}
+
+.content-wrap {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+}
+
+.content {
+    width: 400px;
+    height: 40vh;
+    margin: auto;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+}
+
+
+.form-group {
+    padding: 20px 100px;
+}
+
+
+#VenueName, #City, #VenueType, #Guests, #Address, #Price {
+    font-size: 20px;
+}
+
+#txtVenueName, #txtCity, #txtVenueType, #txtGuests, #txtAddress, #txtPrice {
+    border: none;
+    border-bottom: 3px solid #FFBF00;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: #FFBF00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+th, td {
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px
+}

@@ -1,0 +1,189 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('image/signupbackground.png');
+    background-size: cover;
+    font-family: 'Trebuchet MS';
+}
+
+.loginbox {
+    position: absolute;
+    right: 40%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 680px;
+    height: 750px;
+    padding: 80px 60px;
+    box-sizing: border-box;
+    background: rgba(0,0,0.5,0.7);
+    border-radius: 20px;
+    border-block-end: double;
+}
+
+.logo {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    width: 620px;
+    height: 620px;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #ffd800;
+    margin-bottom: 20px;
+    margin-top: -4px;
+}
+
+.email, .pass, .firstName, .lastName, .confirmpass {
+    font-weight: bold;
+    font-size: 19px;
+    color: #fff;
+}
+
+.txtpass, .txtemail, .txtfirstName, .txtlastName, .txtconfirmpass, .btnsubmit {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+    .txtemail, .txtpass, .txtfirstName, .txtlastName, .txtconfirmpass {
+        border: none;
+        border-bottom: 3px solid #fff;
+        outline: none;
+        height: 40px;
+        color: #fff;
+        font-size: 16px;
+        background-color: transparent;
+    }
+
+::placeholder {
+    color: rgba(255,255,255,.5);
+}
+
+.btnsubmit {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: goldenrod;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmit:hover {
+        background-color: #ffd800;
+    }
+
+.btnforget {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffd800;
+}
+
+    .btnforget:hover {
+        text-decoration: underline;
+    }
+
+.acc {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sign {
+    color: #ffd800;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+    .sign:hover {
+        text-decoration: underline;
+    }
+
+
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: rgb(27 27 31 / 0.70);
+    overflow: auto;
+}
+
+    /* Navbar links */
+    .navbar a {
+        float: right;
+        text-align: center;
+        padding: 19px 28px;
+        color: #dac319;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+        /* Navbar links on mouse-over */
+        .navbar a:hover {
+            background-color: white;
+        }
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+.navbar-brand {
+    background: url(image/lg.png) no-repeat;
+    background-size: 400px 400px;
+    height: 40px;
+    margin: 5px;
+    width: 40px;
+}
+.button {
+    width: 40%;
+    font-weight: bold;
+    font-size: 19px;
+    color: #fff;
+    padding: 40px 30px;
+    margin: 10px;
+}
+
+    .button label {
+        margin-left: 15px;
+    }
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
