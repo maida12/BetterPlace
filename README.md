@@ -1,6 +1,12 @@
 # BetterPlace
 BetterPlace is a service that lets property owners rent out their spaces to travelers looking for a place to stay. Travelers can rent a space for multiple people to share, a shared space with private rooms, or the entire property for themselves.
-# Login
+# Installation
+
+- To get started, use the command "git clone https://github.com/maida12/BetterPlace" to clone the repository. 
+- Once that's done, run the .sln file to begin the project.
+- It's as simple as that!
+
+# Login 
 
 ![Screenshot 2023-07-21 174403](https://github.com/maida12/BetterPlace/assets/81500487/3b565911-0c9e-4505-93e8-dc11e130ccb0)
 # Signup
